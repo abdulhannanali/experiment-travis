@@ -4,5 +4,13 @@ rvm:
 before_install:
  - source ./scripts/nvm.sh
  - node -v
+before_script:
+ - node -v
+before_install:
+ - node -v
 install: true # Skipping the install step
 script: exit 0
+after_success:
+ - node -v
+after_failure:
+ - node -v
