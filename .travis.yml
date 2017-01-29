@@ -1,8 +1,8 @@
 language: ruby
 rvm:
  - 2.3.3
- before_install:
-  - source ./scripts/nvm.sh
-  - node -v
+before_install:
+ - source ./scripts/nvm.sh
+ - node -v
 install: true # Skipping the install step
 script: exit 0
