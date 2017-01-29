@@ -12,5 +12,5 @@ after_success:
  - node -v
 after_failure:
  - node -v
- after_script:
+after_script:
  - node -v
