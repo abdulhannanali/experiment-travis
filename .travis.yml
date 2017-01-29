@@ -1,0 +1,7 @@
+language: ruby
+rvm:
+ - 2.3.3
+ before_install:
+  - source ./scripts/nvm.sh
+  - node -v
+script: exit 0
